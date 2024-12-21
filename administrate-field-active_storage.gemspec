@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  gem.add_dependency "administrate", ">= 0.2.2"
+  gem.add_dependency "administrate"
   gem.add_dependency "rails", ">= 7.0"
 
   gem.add_development_dependency 'sqlite3', '~> 1.4'
